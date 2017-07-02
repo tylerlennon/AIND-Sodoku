@@ -3,11 +3,12 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The new strategy method defines that if a naked twin is found in a peer group all other boxes can eliminate the twin value.  This strategy further reduces the numbers in the box collection and advances the soluiton of the puzle.  To implement this we first found boxes that contained two values.  We itereated the list and determined if they had matching twin within the same peer group.  Once a twin was found we removed the twin values from the remaining boxes if they existed.
+
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We difined a new peer group (diagonal constraint) and applied the existing strategy methods to solve for the new peer.
 
 ### Install
 
